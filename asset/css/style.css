@@ -32,7 +32,7 @@ footer{
     "me ma"
     "f f";
     min-height: 100vh;
-    grid-template-columns: 10% auto;
+    grid-template-columns: 15% auto;
     grid-template-rows: 10% auto 5%;
     }
 
@@ -58,18 +58,23 @@ footer{
 /*ASIDE BAR*/
 
 .categorias-box {
-    background-color: #d9dee2;
+    display: flex;
+    justify-content: center;
+    background-color: #dbe1e6;
+
 }
 
 .categorias {
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
     margin-top: 20px;
+    /*margin-left: 30px;*/
+    /*margin-top: 20px;*/
+
 }
 
 .categorias > ul {
-    margin-top: 20px;
+    margin-top: 10px;
     list-style: none;
     font-size: 15px;
     color: #2f3131;
@@ -145,5 +150,5 @@ footer {
     padding-top: 20px;
     text-align: center;
     cursor: pointer;
-    margin-left: 200px;
+    margin-left: 300px;
 }
