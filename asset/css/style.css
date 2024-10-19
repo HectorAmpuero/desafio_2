@@ -65,6 +65,14 @@ footer{
     cursor: pointer;
 }
 
+li {
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.nav > li:hover { 
+    border: 1px solid white;
+}
 
 /*ASIDE BAR*/
 
@@ -147,7 +155,11 @@ button {
     border-bottom-right-radius: 6px;
 }
 
-
+button:hover {
+    background-color: #ffffff;
+    color: #000;
+    
+}
 
 /*FOOTER*/
 
